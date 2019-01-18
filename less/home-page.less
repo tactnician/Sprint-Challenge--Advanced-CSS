@@ -3,7 +3,7 @@
 .home {
 
   .intro {
-
+   
     h2 {
       padding: 15px;
     }
@@ -12,12 +12,23 @@
       padding:0 15px;
     }
 
-    img{
-      @media @phone{
-        max-height: 100px;
+    @media @phone {
+      // .center-flex;
+      // align-content: space-between;
+      img{
+        width:100%;
+
       }
+      
     }
-  
+    
+    // img{
+    //   @media @phone{
+    //     width:500px;
+    //     height: 100px;
+    //     justify-content: flex-start;
+    //   }
+    // }
   }
 
   .space-images {
@@ -32,11 +43,11 @@
       height: 100%;
 
       @media @phone{
-        img.sky{
-          display: none;
+        .sky{
+          display:none;
         }
-        img.launch{
-          display: none;
+        .launch{
+          display:none;
         }
       }
     }

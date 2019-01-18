@@ -199,9 +199,9 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
-@media max-width: 500px {
+@media (max-width: 500px) {
   .home .intro img {
-    max-height: 100px;
+    width: 100%;
   }
 }
 .home .space-images {
@@ -215,11 +215,11 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-@media max-width: 500px {
-  .home .space-images img img.sky {
+@media (max-width: 500px) {
+  .home .space-images img .sky {
     display: none;
   }
-  .home .space-images img img.launch {
+  .home .space-images img .launch {
     display: none;
   }
 }
@@ -263,7 +263,7 @@ footer {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-@media max-width: 500px {
+@media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
   }
