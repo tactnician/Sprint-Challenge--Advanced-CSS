@@ -11,6 +11,12 @@
     p {
       padding:0 15px;
     }
+
+    img{
+      @media @phone{
+        max-height: 100px;
+      }
+    }
   
   }
 
@@ -24,7 +30,18 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone{
+        img.sky{
+          display: none;
+        }
+        img.launch{
+          display: none;
+        }
+      }
     }
+
+    
   }
 
   .visit-planets {
@@ -60,6 +77,7 @@
       .btn {
         .button-creator(30%, 40px, @btn-bg-color, @porcelain, 2rem);
         .border-radius(10px);
+
       }
     }
 
