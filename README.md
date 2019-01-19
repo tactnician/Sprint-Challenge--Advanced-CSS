@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+~ Adaptive uses fixed layouts with media queries, while responsive uses percent based layouts with media queries.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+~Desktop first styles the desktop first and uses max-width media breakouts to style for tablet and mobile.
+~ Mobile first styles mobile first and uses min-width media breakouth to style for tablet then desktop
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+~ It allows for rem to equal 10px and simplifies the calculation while styling.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+~ Preprocessing allows for us to write more compact and intuitive stylings by giving us nested elements that match out html, variables, functions and mixins. These stylings are the compiled into out CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+~ I really like the the escape syntax when utilized with media queries. I just like the way @media @phone looks. It's elegent to me.
+
+~ Nested inheritance in less is a bit of a blocker. it usually takes me a minute to figure out which style to apply first. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -80,7 +93,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [ ^ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -96,23 +109,23 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [ ^ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ ^ ] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [ ^ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [ ^ ] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [ ^ ] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+*  [ ^ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [ ^ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [ ^ ]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [ ^ ] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
